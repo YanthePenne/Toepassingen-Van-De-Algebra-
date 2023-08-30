@@ -1,4 +1,5 @@
 # Toepassingen-Van-De-Algebra
+
 Code of Conduct:
 
     Specific Documentation
@@ -11,8 +12,6 @@ To be implemented:
     PriemTesten
     Lineare blockcodes
     Reed-Solomon codes
-    Congruenties
-    Exctende Euclidian Algoritm
     Miller-Rabin Prime
     Boneh
     Discrete Logrimte cryptografie
@@ -35,6 +34,8 @@ Implemented:
     Modulo Inverse (Relatief Priem)
     Modulo Exponential
     Modulo Natural Log
+    Exctende Euclidian Algoritm
+    Congruenties
 
 Links:
 
