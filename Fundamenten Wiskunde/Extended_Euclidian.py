@@ -1,6 +1,6 @@
-import Modulus as m
 import Euclidian_Algorithm as ea
 # Extended Euclidian Algorithm
+
 
 """
 Beschrijving: 
@@ -18,24 +18,32 @@ Output:
     
 """
 def extended_gcd(a, b): 
-    # d = ea.gcd(a, b)
-    r0 = a
-    a0 = 1
-    b0 = 0
-
-    r1 = b
-    a1 = 0 
-    b1 = 1
-  
     
-    while r1 != 0: 
-        q = r0/r1
-        r0 = r1
-        r1 = r0 - q*r1
-        a1 = a0 - q*a1 
-        b1 = b0 - q*b1
+        r = []
+        r.append(a)
+        r.append(b)
 
-    return print(f"{r1} = {a1} * {a} + {b1} * {b}")
+        alfa = [] 
+        alfa.append(1)
+        alfa.append(0)
 
+        beta = []
+        beta.append(0)
+        beta.append(1) 
+   
+        i = 1
+        while r[i] != 0: 
+            i = i + 1 
+            q = r[i-2]/r[i - 1]
+            r.append(int(r[i-2] - q*r[i-1]))
+            alfa.append(int(alfa[i-2] - q * alfa[i - 1])) 
+            beta.append(int(beta[i-2] - q * beta[i - 1]))
+    
+        return f"{ea.gcd(a,b)} = {alfa[i]} * {a} + {beta[i]} * {b}"
+    
 
-print(extended_gcd(int(input("Number1: ")), int(input("Number2: "))))
+   
+    
+a = int(input("Number 1: "))
+b = int(input("Number 2: "))
+print(extended_gcd(a,b))

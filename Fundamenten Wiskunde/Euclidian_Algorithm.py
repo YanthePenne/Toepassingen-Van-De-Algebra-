@@ -25,3 +25,7 @@ def gcd(a, b):
         return abs(a)
     else:
         return gcd(b, hf.mod(a, b))
+
+a = int(input("Number 1: "))
+b = int(input("Number 2: "))
+print(gcd(a,b))
