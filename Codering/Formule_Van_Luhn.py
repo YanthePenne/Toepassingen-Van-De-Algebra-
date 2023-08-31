@@ -15,7 +15,7 @@ Ouput:
 """
 
 
-def luhn(int_card_no):
+def luhn_formule(int_card_no):
     lst_card_no = [int(i) for i in str(int_card_no)]
     last = len(lst_card_no) - 1
 
@@ -68,4 +68,4 @@ def double_mod9(int):
 
 
 int_card_no = int(input("What is your card number?: "))
-print(luhn(int_card_no))
+print(luhn_formule(int_card_no))

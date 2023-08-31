@@ -17,7 +17,7 @@ Output:
 """
 
 
-def extended_gcd(a, b):
+def ee_algorithm(a, b):
     # 1 Stel r[0] = alfa[0] * a + beta[0] * b
     # 2 Stel r[1] = alfa[1] * a + beta[1] * b
     # 3 alfa[0] = 1, beta[0] = 0, alfa[1] = 0, beta[1] = 1
