@@ -17,8 +17,25 @@ Output:
 """
 
 
-def Lineaire_Blockcodes(N, n, d, base):
+def Lineaire_Blockcodes_algorithm(N, n, d, base):
     print("Not yet implemented")
+
+
+"""
+Beschrijving: 
+
+
+Input: 
+
+
+
+
+Output: 
+
+
+
+
+"""
 
 
 def correction(d):
@@ -26,10 +43,7 @@ def correction(d):
 
 
 """
-def Lineaire_Blockcodes(f, d, base):
 
-def correction(d): 
-    return (d - 1)/2
 
 
 

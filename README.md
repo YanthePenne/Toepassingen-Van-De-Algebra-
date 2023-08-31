@@ -1,12 +1,6 @@
 # Toepassingen-Van-De-Algebra
 
-Code of Conduct:
-
-    Specific Documentation
-    Unambigious Naming
-    Testing
-
-To be implemented:
+# To be implemented:
 
     RSA
     PriemTesten
@@ -20,7 +14,7 @@ To be implemented:
     XS
     Shor's Algoritme
 
-Implemented:
+# Implemented:
 
     Formule van Luhn
     Euclidian Algorithm
@@ -37,7 +31,33 @@ Implemented:
     Exctende Euclidian Algoritm
     Congruenties
 
-Links:
+# Code of Conduct:
+
+    Specific Documentation (in Format)
+    Unambigious Naming
+    Testing
+
+# Format: # {Algoritm Name}
+
+"""
+Description:
+
+    # {Algorithm Name}
+    Input:
+
+
+
+
+    Output:
+
+
+
+
+    """
+
+    # Command every step of the algorithm
+
+# Links:
 
 TI software: https://education.ti.com/en/products/calculators/graphing-calculators/ti-84-plus-ce-python/applications
 Python Doc: https://docs.python.org/3/library/
