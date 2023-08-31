@@ -60,7 +60,23 @@ def luhn_formule(int_card_no):
     valid = (int_result_last - lst_card_no[last]) == 0
     return valid
 
+
 # Help Functions
+"""
+Beschrijving: 
+
+
+Input: 
+
+
+
+
+Output: 
+
+
+
+
+"""
 
 
 def double_mod9(int):

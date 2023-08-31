@@ -20,12 +20,13 @@ Output:
 """
 
 
-def gcd(a, b):
+def gcd_algorithm(a, b):
     if (b == 0):
         return abs(a)
     else:
-        return gcd(b, hf.mod(a, b))
+        return gcd_algorithm(b, hf.mod(a, b))
+
 
 a = int(input("Number 1: "))
 b = int(input("Number 2: "))
-print(gcd(a,b))
+print(gcd_algorithm(a, b))

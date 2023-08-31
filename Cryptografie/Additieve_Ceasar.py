@@ -18,9 +18,9 @@ Output:
 """
 
 
-def encrypt_aCeasar(phrase, key, m):
+def encrypt_aCeasar_algorithm(phrase, key, m):
     return [hf.modulo_plus(i, key, m) for i in phrase]
 
 
-def decrypt_aCeasar(phrase, key, m):
+def decrypt_aCeasar_algorithm(phrase, key, m):
     return [hf.modulo_min(i, key, m) for i in phrase]

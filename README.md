@@ -31,6 +31,23 @@
     Exctende Euclidian Algoritm
     Congruenties
 
+# Documented:
+
+    Formule van Luhn
+    Euclidian Algorithm
+    Additive Ceasar Cijfer
+    Multiplicative Ceaser Cijfer
+    Bellaso Cijfer
+    Modulo
+    Modulo Times
+    Modulo Plus
+    Modulo Min
+    Modulo Inverse (Relatief Priem)
+    Modulo Exponential
+    Modulo Natural Log
+    Exctende Euclidian Algoritm
+    Congruenties
+
 # Code of Conduct:
 
     Specific Documentation (in Format)

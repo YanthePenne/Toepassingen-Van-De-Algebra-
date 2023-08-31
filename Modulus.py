@@ -11,15 +11,65 @@ relatief priem als mod(a, m) = 0
 def mod(a, m):
     return a % m
 
+
 # Modulo Calculations
+"""
+Beschrijving: 
+
+
+Input: 
+
+
+
+
+Output: 
+
+
+
+
+"""
 
 
 def modulo_times(x, times, m):
     return mod(x*times, m)
 
 
+"""
+Beschrijving: 
+
+
+Input: 
+
+
+
+
+Output: 
+
+
+
+
+"""
+
+
 def modulo_plus(left_term, right_term, m):
     return mod(left_term + right_term, m)
+
+
+"""
+Beschrijving: 
+
+
+Input: 
+
+
+
+
+Output: 
+
+
+
+
+"""
 
 
 def modulo_min(left_term, right_term, m):

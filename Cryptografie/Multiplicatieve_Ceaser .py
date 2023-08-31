@@ -15,9 +15,9 @@ Output:
 """
 
 
-def encrypt_mCeasar(phrase, key, m):
+def encrypt_mCeasar_algorithm(phrase, key, m):
     return [hf.modulo_times(i, key, m) for i in phrase]
 
 
-def decrypt_mCeasar(phrase, reverse_key, m):
+def decrypt_mCeasar_algorithm(phrase, reverse_key, m):
     return [hf.modulo_times(i, reverse_key, m) for i in phrase]

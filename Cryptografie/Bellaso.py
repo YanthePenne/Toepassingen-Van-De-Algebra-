@@ -15,7 +15,7 @@ Output:
 """
 
 
-def encrypt_Bellaso(phrase, pass_key, m):
+def encrypt_Bellaso_algorithm(phrase, pass_key, m):
     result = []
     for i in range(0, len(phrase) - 1):
         result.append(hf.modulo_plus(
@@ -23,7 +23,7 @@ def encrypt_Bellaso(phrase, pass_key, m):
     return result
 
 
-def encrypt_Bellaso(phrase, pass_key, m):
+def encrypt_Bellaso_algoritm(phrase, pass_key, m):
     result = []
     for i in range(0, len(phrase) - 1):
         result.append(hf.modulo_min(phrase[i], pass_key[i % len(pass_key)], m))
