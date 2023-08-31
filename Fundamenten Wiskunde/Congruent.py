@@ -1,16 +1,19 @@
 import math
 # Congruence Solver
 """
-Beschrijving: 
+Beschrijving:
 
-    Solves a congruence equation 
+    Solves a congruence equation a*x = e mod m
+    Given a, e, m 
+    Solves x 
 
 Input:
-   
+
+    congruentie (a, e, m)
 
 Output: 
-  
-    
+
+    x  
 """
 
 
