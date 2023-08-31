@@ -11,8 +11,10 @@ Input:
     m = modulo  = int 
 
 Output: 
-    Encrypt 
-    Decrypt
+
+    Encrypt hf.mod(phrase + key, m)
+    Decrypt hf.mod(phrase - key, m)
+
 """
 
 
