@@ -3,7 +3,7 @@
 """
 Beschrijving: 
     Toegevoegde Extended Euclidian Algorithm.
-    d = gcd(a, b) = alf a *a + beta * b. 
+    d = gcd(a, b) = alf * a + beta * b. 
 
 Input:
     extended_gcd(number1, number2)
