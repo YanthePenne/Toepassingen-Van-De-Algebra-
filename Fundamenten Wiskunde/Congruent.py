@@ -15,11 +15,11 @@ Input:
 
 Output: 
 
-    x  
+    x 
 """
 
 
-def congruentie(a, e, m):
+def congruence_algorithm(a, e, m):
     # ax = e mod m
     # Coprime
     checker = math.gcd(a, m) == 1
