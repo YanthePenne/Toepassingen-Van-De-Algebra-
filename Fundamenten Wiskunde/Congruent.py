@@ -31,3 +31,9 @@ def congruence_algorithm(a, e, m):
                 return i
 
     return False
+
+
+a = int(input("a: "))
+e = int(input("e: "))
+m = int(input("m: "))
+print(congruence_algorithm(a, e, m))

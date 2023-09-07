@@ -56,3 +56,8 @@ def ee_algorithm(a, b):
     # 9 Bezout's Identity
     result = alfa[i-1] * number1 - beta[i-1] * number2
     return (f"{result % number1} = {alfa[i-1]} * {number1} - {beta[i-1]} * {number2}")
+
+
+a = int(input("a: "))
+b = int(input("b: "))
+print(ee_algorithm(a, b))
